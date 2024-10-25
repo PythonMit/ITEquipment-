@@ -1,0 +1,107 @@
+﻿@* @*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+
+@{
+    ViewData["Title"] = "Manufacturers";
+    Layout = "~/Views/Shared/_LayoutTheme.cshtml";
+}
+<input type="hidden" id="check_UserRole" value="@ViewBag.URole" />
+<div class="card mb-5 mb-xl-8">
+    <div class="card-header border-0 pt-5">
+
+        <div class="d-flex w-100 justify-content-between">
+            <h3 class="card-title align-items-start flex-column">
+                @ViewBag.Title
+            </h3>
+            @if (ViewBag.URole == "Admin")
+            {
+                <div class="card-toolbar">
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Manufacturer_Modal" id="btnAddManufacturer">
+                        <i class="bi bi-plus-square-fill fs-2"></i>
+                        Add Manufacturer
+                    </button>
+                </div>
+            }
+        </div>
+
+        <div class="container-fluid filter-box">
+            <div class="row gx-3">
+                <div class="col mb-2">
+                    <label class="form-label text-nowrap me-2">Manufacturer: </label>
+                    <input class="form-control" type="search" placeholder="Search" aria-label="Search" name="ManufacturerName" id="txt_ManufacturerName">
+                </div>
+                <div class="col mb-2">
+                    <label class="form-label text-nowrap me-2">&nbsp;</label>
+                    <div class="d-flex flex-nowrap">
+                        <button class="btn btn-success me-2 ser_Manufacturer" type="submit">Search</button>
+                        <button class="btn btn-secondary ser_btn_Clear" type="button">Clear</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+    <div class="card-body py-3">
+        <div class="table-responsive">
+
+            <table id="ManufacturerlistTblId" class="table table-row-dashed table-row-gray-300 align-middle gs-0 gy-4" style="width:100%">
+            </table>
+        </div>
+    </div>
+
+</div>
+
+
+<div class="modal fade" id="Manufacturer_Modal" tabindex="-1" style="display: none;" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered mw-650px">
+        <div class="modal-content">
+            <div class="modal-header" id="tipl_modal_add_user_header">
+                <h2 class="fw-bold modal-title" id="fun_Title"></h2>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body px-5">
+                <div class="mx-30" id="divAddEditForm">
+                    @{
+                        Html.RenderPartial("_AddEditManufacturer");
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="deleteManufacturer" class="modal fade" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <form id="frmDeleteManufacturer" asp-action="DeleteManufacturer" asp-controller="Manufacturer" class="form-horizontal" data-ajax="true" data-ajax-method="POST" data-ajax-failure="DeleteManufacturerFailure"
+                  data-ajax-success="DeleteManufacturerSuccess" data-ajax-begin="ShowLoader()" data-ajax-complete="HideLoader()">
+                <div class="modal-header">
+                    <h5 class="fw-bold modal-title">Delete Manufacturer</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Are you sure want to delete this Manufacturer?</p>
+                    <input type="hidden" value="" id="hdnDeleteManufacturerId" name="Id">
+                </div>
+                <div class="modal-footer">
+                    <button id="btnConfirmDeleteManufacturer" type="submit" class="btn btn-primary" data-bs-dismiss="modal">Delete</button>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+
+
+@section Scripts {
+    <script src="@Url.Content("~/js/addeditmanufacturer.js")"></script>
+} 

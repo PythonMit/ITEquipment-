@@ -1,0 +1,126 @@
+﻿@* @*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+@model ITEquipment.Models.UserMasterDTOModel
+@{
+    ViewData["Title"] = "Users";
+    Layout = "~/Views/Shared/_LayoutTheme.cshtml";
+}
+<input type="hidden" id="check_UserRole" value="@ViewBag.URole" />
+<input type="hidden" id="auth_user_email" value="@ViewBag.email" />
+<div class="card mb-5 mb-xl-8">
+    <div class="card-header border-0 pt-5">
+        <div class="d-flex w-100 justify-content-between">
+            <h3 class="card-title align-items-start flex-column">
+                @ViewBag.Title
+            </h3>
+
+            @if (ViewBag.URole == "Admin")
+            {
+                <div class="card-toolbar">
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#addUser_modal" id="btnAddUser">
+                        <i class="bi bi-plus-square-fill fs-2"></i>
+                        Add User
+                    </button>
+                </div>
+            }
+        </div>
+
+        <div class="container-fluid filter-box">
+            <div class="row gx-3">
+                <div class="col mb-2">
+                    <label class="form-label text-nowrap me-2">User: </label>
+                    <input class="form-control" type="search" placeholder="Search" aria-label="Search" name="UserSearch" id="txt_UserName">
+                </div>
+                <div class="col mb-2">
+                    <label class="form-label text-nowrap me-2">Email: </label>
+                    <input class="form-control" type="search" placeholder="Search" aria-label="Search" name="Email" id="txt_Email">
+                </div>
+
+                <div class="col mb-2">
+                    <label class="form-label text-nowrap me-2">Role </label>
+                    <select asp-for="RoleId" class="form-control" name="Role" id="txt_Role">
+                        @foreach (var item in ViewBag.Roles)
+                        {
+                            <option value="@item.Value">@item.Text</option>
+                        }
+                    </select>
+                   
+                </div>
+
+                <div class="col mb-2">
+                    <label class="form-label text-nowrap me-2">&nbsp;</label>
+                    <div class="d-flex flex-nowrap">
+                        <button class="btn btn-success me-2 ser_User" type="submit">Search</button>
+                        <button class="btn btn-secondary ser_btn_Clear" type="button">Clear</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+
+    <div class="card-body py-3">
+        <div class="table-responsive">
+            <table id="UserlistTblId" class="table table-row-dashed table-row-gray-300 align-middle gs-0 gy-4" style="width:100%">
+            </table>
+        </div>
+    </div>
+</div>
+
+
+<div class="modal fade" id="Role_Type_Modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <form id="frmRoleType" asp-action="UpdateUserRole" asp-controller="Home" class="form-horizontal" data-ajax="true" data-ajax-method="POST" data-ajax-failure="UserRoleStatusFailure"
+                  data-ajax-success="UserRoleStatusSuccess" data-ajax-begin="ShowLoader()" data-ajax-complete="HideLoader()">
+                <div class="modal-header">
+                    <h5 class="modal-title">Update User Role</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <label>User Role :</label>
+                    <select asp-for="RoleId" class="form-control">
+                        @foreach (var item in ViewBag.Roles)
+                        {
+                            <option value="@item.Value">@item.Text</option>
+                        }
+                    </select>
+
+                    <input type="hidden" value="" id="hdnUserId" name="UserId">
+
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-primary clearRole" data-bs-dismiss="modal">Save</button>
+                    <button type="button" class="btn btn-secondary clearRole" data-bs-dismiss="modal">Cancel</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="addUser_modal" tabindex="-1" style="display: none;" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered mw-650px">
+        <div class="modal-content">
+            <div class="modal-header" id="tipl_modal_add_user_header" style="padding:10px;">
+                <h2 class="fw-bold">Add New User</h2>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body px-5">
+                <div class="mx-30" id="divAddEditForm">
+                    @{
+                        Html.RenderPartial("_AddUser");
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@section Scripts {
+    <script src="@Url.Content("~/js/UserList.js")"></script>
+}

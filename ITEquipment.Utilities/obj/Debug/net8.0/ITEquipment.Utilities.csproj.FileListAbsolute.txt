@@ -1,0 +1,17 @@
+C:\project\IT_Equipment_API\source_code\ITEquipment\ITEquipment.Utilities\bin\Debug\net8.0\ITEquipment.Utilities.deps.json
+C:\project\IT_Equipment_API\source_code\ITEquipment\ITEquipment.Utilities\bin\Debug\net8.0\ITEquipment.Utilities.dll
+C:\project\IT_Equipment_API\source_code\ITEquipment\ITEquipment.Utilities\bin\Debug\net8.0\ITEquipment.Utilities.pdb
+C:\project\IT_Equipment_API\source_code\ITEquipment\ITEquipment.Utilities\obj\Debug\net8.0\ITEquipment.Utilities.GeneratedMSBuildEditorConfig.editorconfig
+C:\project\IT_Equipment_API\source_code\ITEquipment\ITEquipment.Utilities\obj\Debug\net8.0\ITEquipment.Utilities.AssemblyInfoInputs.cache
+C:\project\IT_Equipment_API\source_code\ITEquipment\ITEquipment.Utilities\obj\Debug\net8.0\ITEquipment.Utilities.AssemblyInfo.cs
+C:\project\IT_Equipment_API\source_code\ITEquipment\ITEquipment.Utilities\obj\Debug\net8.0\ITEquipment.Utilities.csproj.CoreCompileInputs.cache
+C:\project\IT_Equipment_API\source_code\ITEquipment\ITEquipment.Utilities\obj\Debug\net8.0\ITEquipment.Utilities.dll
+C:\project\IT_Equipment_API\source_code\ITEquipment\ITEquipment.Utilities\obj\Debug\net8.0\refint\ITEquipment.Utilities.dll
+C:\project\IT_Equipment_API\source_code\ITEquipment\ITEquipment.Utilities\obj\Debug\net8.0\ITEquipment.Utilities.pdb
+C:\project\IT_Equipment_API\source_code\ITEquipment\ITEquipment.Utilities\obj\Debug\net8.0\ref\ITEquipment.Utilities.dll
+C:\project\IT_Equipment_API\source_code\ITEquipment\ITEquipment.Utilities\bin\Debug\net8.0\ITEquipment.Models.dll
+C:\project\IT_Equipment_API\source_code\ITEquipment\ITEquipment.Utilities\bin\Debug\net8.0\ITEquipment.Models.pdb
+C:\project\IT_Equipment_API\source_code\ITEquipment\ITEquipment.Utilities\obj\Debug\net8.0\ITEquipment.Utilities.csproj.AssemblyReference.cache
+C:\project\IT_Equipment_API\source_code\ITEquipment\ITEquipment.Utilities\obj\Debug\net8.0\ITEquipm.D3018A9F.Up2Date
+C:\project\IT_Equipment_API\source_code\ITEquipment\ITEquipment.Utilities\bin\Debug\net8.0\ITEquipment.Utilities.runtimeconfig.json
+C:\project\IT_Equipment_API\source_code\ITEquipment\ITEquipment.Utilities\obj\Debug\net8.0\ITEquipment.Utilities.genruntimeconfig.cache

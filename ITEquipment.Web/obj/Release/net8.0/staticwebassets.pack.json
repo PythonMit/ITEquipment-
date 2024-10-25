@@ -1,0 +1,789 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\obj\\Release\\net8.0\\scopedcss\\projectbundle\\ITEquipment.Web.bundle.scp.css",
+      "PackagePath": "staticwebassets\\ITEquipment.Web.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\Assets\\css\\boostrap-icon.css",
+      "PackagePath": "staticwebassets\\Assets\\css\\boostrap-icon.css"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\Assets\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\Assets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\Assets\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\Assets\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\Assets\\css\\datatables.bundle.css",
+      "PackagePath": "staticwebassets\\Assets\\css\\datatables.bundle.css"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\Assets\\css\\fontawesome.css",
+      "PackagePath": "staticwebassets\\Assets\\css\\fontawesome.css"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\Assets\\css\\fullcalendar.bundle.css",
+      "PackagePath": "staticwebassets\\Assets\\css\\fullcalendar.bundle.css"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\Assets\\css\\jquery-ui.css",
+      "PackagePath": "staticwebassets\\Assets\\css\\jquery-ui.css"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\Assets\\css\\plugins.bundle.css",
+      "PackagePath": "staticwebassets\\Assets\\css\\plugins.bundle.css"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\Assets\\css\\select2.css",
+      "PackagePath": "staticwebassets\\Assets\\css\\select2.css"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\Assets\\css\\style.bundle.css",
+      "PackagePath": "staticwebassets\\Assets\\css\\style.bundle.css"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\Assets\\css\\sweetalert2.min.css",
+      "PackagePath": "staticwebassets\\Assets\\css\\sweetalert2.min.css"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\Assets\\css\\tempusdominus-bootstrap-4.css",
+      "PackagePath": "staticwebassets\\Assets\\css\\tempusdominus-bootstrap-4.css"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\Assets\\favicon.png",
+      "PackagePath": "staticwebassets\\Assets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\Assets\\fonts\\bootstrap-icons\\bootstrap-icons.woff",
+      "PackagePath": "staticwebassets\\Assets\\fonts\\bootstrap-icons\\bootstrap-icons.woff"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\Assets\\fonts\\bootstrap-icons\\bootstrap-icons.woff2",
+      "PackagePath": "staticwebassets\\Assets\\fonts\\bootstrap-icons\\bootstrap-icons.woff2"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\Assets\\fonts\\fortawesome\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\Assets\\fonts\\fortawesome\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\Assets\\fonts\\fortawesome\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\Assets\\fonts\\fortawesome\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\Assets\\fonts\\fortawesome\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\Assets\\fonts\\fortawesome\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\Assets\\fonts\\fortawesome\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\Assets\\fonts\\fortawesome\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\Assets\\images\\404.svg",
+      "PackagePath": "staticwebassets\\Assets\\images\\404.svg"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\Assets\\images\\Accessory_pic.png",
+      "PackagePath": "staticwebassets\\Assets\\images\\Accessory_pic.png"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\Assets\\images\\No_Image_Available.jpg",
+      "PackagePath": "staticwebassets\\Assets\\images\\No_Image_Available.jpg"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\Assets\\images\\about-us.jpg",
+      "PackagePath": "staticwebassets\\Assets\\images\\about-us.jpg"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\Assets\\images\\add-new-vector.svg",
+      "PackagePath": "staticwebassets\\Assets\\images\\add-new-vector.svg"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\Assets\\images\\asset150x150.png",
+      "PackagePath": "staticwebassets\\Assets\\images\\asset150x150.png"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\Assets\\images\\avatars\\1.jpg",
+      "PackagePath": "staticwebassets\\Assets\\images\\avatars\\1.jpg"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\Assets\\images\\avatars\\2.jpg",
+      "PackagePath": "staticwebassets\\Assets\\images\\avatars\\2.jpg"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\Assets\\images\\avatars\\3.jpg",
+      "PackagePath": "staticwebassets\\Assets\\images\\avatars\\3.jpg"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\Assets\\images\\avatars\\4.jpg",
+      "PackagePath": "staticwebassets\\Assets\\images\\avatars\\4.jpg"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\Assets\\images\\avatars\\5.jpg",
+      "PackagePath": "staticwebassets\\Assets\\images\\avatars\\5.jpg"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\Assets\\images\\avatars\\icon1.png",
+      "PackagePath": "staticwebassets\\Assets\\images\\avatars\\icon1.png"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\Assets\\images\\avatars\\icon2.png",
+      "PackagePath": "staticwebassets\\Assets\\images\\avatars\\icon2.png"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\Assets\\images\\avatars\\icon3.png",
+      "PackagePath": "staticwebassets\\Assets\\images\\avatars\\icon3.png"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\Assets\\images\\avatars\\icon4.png",
+      "PackagePath": "staticwebassets\\Assets\\images\\avatars\\icon4.png"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\Assets\\images\\avatars\\icon5.png",
+      "PackagePath": "staticwebassets\\Assets\\images\\avatars\\icon5.png"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\Assets\\images\\avatars\\icon6.png",
+      "PackagePath": "staticwebassets\\Assets\\images\\avatars\\icon6.png"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\Assets\\images\\avatars\\icon7.png",
+      "PackagePath": "staticwebassets\\Assets\\images\\avatars\\icon7.png"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\Assets\\images\\blog\\blog1.png",
+      "PackagePath": "staticwebassets\\Assets\\images\\blog\\blog1.png"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\Assets\\images\\blog\\blog2.png",
+      "PackagePath": "staticwebassets\\Assets\\images\\blog\\blog2.png"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\Assets\\images\\blog\\blog3.png",
+      "PackagePath": "staticwebassets\\Assets\\images\\blog\\blog3.png"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\Assets\\images\\blog\\blog4.png",
+      "PackagePath": "staticwebassets\\Assets\\images\\blog\\blog4.png"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\Assets\\images\\blog\\blog5.png",
+      "PackagePath": "staticwebassets\\Assets\\images\\blog\\blog5.png"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\Assets\\images\\blog\\blog6.png",
+      "PackagePath": "staticwebassets\\Assets\\images\\blog\\blog6.png"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\Assets\\images\\booking_pic.png",
+      "PackagePath": "staticwebassets\\Assets\\images\\booking_pic.png"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\Assets\\images\\brand\\apple-black.svg",
+      "PackagePath": "staticwebassets\\Assets\\images\\brand\\apple-black.svg"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\Assets\\images\\brand\\google-icon.svg",
+      "PackagePath": "staticwebassets\\Assets\\images\\brand\\google-icon.svg"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\Assets\\images\\brand\\microsoft.png",
+      "PackagePath": "staticwebassets\\Assets\\images\\brand\\microsoft.png"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\Assets\\images\\card\\american-express.svg",
+      "PackagePath": "staticwebassets\\Assets\\images\\card\\american-express.svg"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\Assets\\images\\card\\mastercard.svg",
+      "PackagePath": "staticwebassets\\Assets\\images\\card\\mastercard.svg"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\Assets\\images\\card\\visa.svg",
+      "PackagePath": "staticwebassets\\Assets\\images\\card\\visa.svg"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\Assets\\images\\coming-soon.svg",
+      "PackagePath": "staticwebassets\\Assets\\images\\coming-soon.svg"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\Assets\\images\\creative-login-bg.jpg",
+      "PackagePath": "staticwebassets\\Assets\\images\\creative-login-bg.jpg"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\Assets\\images\\def_equ.png",
+      "PackagePath": "staticwebassets\\Assets\\images\\def_equ.png"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\Assets\\images\\email\\confirm.png",
+      "PackagePath": "staticwebassets\\Assets\\images\\email\\confirm.png"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\Assets\\images\\email\\icon-dribbble.svg",
+      "PackagePath": "staticwebassets\\Assets\\images\\email\\icon-dribbble.svg"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\Assets\\images\\email\\icon-facebook.svg",
+      "PackagePath": "staticwebassets\\Assets\\images\\email\\icon-facebook.svg"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\Assets\\images\\email\\icon-linkedin.svg",
+      "PackagePath": "staticwebassets\\Assets\\images\\email\\icon-linkedin.svg"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\Assets\\images\\email\\icon-twitter.svg",
+      "PackagePath": "staticwebassets\\Assets\\images\\email\\icon-twitter.svg"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\Assets\\images\\email\\reset-password.png",
+      "PackagePath": "staticwebassets\\Assets\\images\\email\\reset-password.png"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\Assets\\images\\email\\thumbs-up.png",
+      "PackagePath": "staticwebassets\\Assets\\images\\email\\thumbs-up.png"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\Assets\\images\\file-manager-bg.svg",
+      "PackagePath": "staticwebassets\\Assets\\images\\file-manager-bg.svg"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\Assets\\images\\instagram\\insta1.png",
+      "PackagePath": "staticwebassets\\Assets\\images\\instagram\\insta1.png"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\Assets\\images\\instagram\\insta2.png",
+      "PackagePath": "staticwebassets\\Assets\\images\\instagram\\insta2.png"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\Assets\\images\\instagram\\insta3.png",
+      "PackagePath": "staticwebassets\\Assets\\images\\instagram\\insta3.png"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\Assets\\images\\instagram\\insta4.png",
+      "PackagePath": "staticwebassets\\Assets\\images\\instagram\\insta4.png"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\Assets\\images\\instagram\\insta5.png",
+      "PackagePath": "staticwebassets\\Assets\\images\\instagram\\insta5.png"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\Assets\\images\\login-bg.png",
+      "PackagePath": "staticwebassets\\Assets\\images\\login-bg.png"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\Assets\\images\\logo-sm.svg",
+      "PackagePath": "staticwebassets\\Assets\\images\\logo-sm.svg"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\Assets\\images\\logo.svg",
+      "PackagePath": "staticwebassets\\Assets\\images\\logo.svg"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\Assets\\images\\media\\media1.png",
+      "PackagePath": "staticwebassets\\Assets\\images\\media\\media1.png"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\Assets\\images\\media\\media2.png",
+      "PackagePath": "staticwebassets\\Assets\\images\\media\\media2.png"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\Assets\\images\\media\\media3.png",
+      "PackagePath": "staticwebassets\\Assets\\images\\media\\media3.png"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\Assets\\images\\media\\media4.png",
+      "PackagePath": "staticwebassets\\Assets\\images\\media\\media4.png"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\Assets\\images\\media\\media5.png",
+      "PackagePath": "staticwebassets\\Assets\\images\\media\\media5.png"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\Assets\\images\\mega-menu\\1.png",
+      "PackagePath": "staticwebassets\\Assets\\images\\mega-menu\\1.png"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\Assets\\images\\mega-menu\\2.png",
+      "PackagePath": "staticwebassets\\Assets\\images\\mega-menu\\2.png"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\Assets\\images\\mega-menu\\3.png",
+      "PackagePath": "staticwebassets\\Assets\\images\\mega-menu\\3.png"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\Assets\\images\\mega-menu\\4.png",
+      "PackagePath": "staticwebassets\\Assets\\images\\mega-menu\\4.png"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\Assets\\images\\mega-menu\\5.png",
+      "PackagePath": "staticwebassets\\Assets\\images\\mega-menu\\5.png"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\Assets\\images\\project\\crm.png",
+      "PackagePath": "staticwebassets\\Assets\\images\\project\\crm.png"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\Assets\\images\\project\\figma.png",
+      "PackagePath": "staticwebassets\\Assets\\images\\project\\figma.png"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\Assets\\images\\project\\office.png",
+      "PackagePath": "staticwebassets\\Assets\\images\\project\\office.png"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\Assets\\images\\project\\react.png",
+      "PackagePath": "staticwebassets\\Assets\\images\\project\\react.png"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\Assets\\images\\project\\visual-studio.png",
+      "PackagePath": "staticwebassets\\Assets\\images\\project\\visual-studio.png"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\Assets\\images\\table1.png",
+      "PackagePath": "staticwebassets\\Assets\\images\\table1.png"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\Assets\\images\\table2.png",
+      "PackagePath": "staticwebassets\\Assets\\images\\table2.png"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\Assets\\images\\table3.png",
+      "PackagePath": "staticwebassets\\Assets\\images\\table3.png"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\Assets\\images\\trans-back.jpg",
+      "PackagePath": "staticwebassets\\Assets\\images\\trans-back.jpg"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\Assets\\images\\trans-back1.jpg",
+      "PackagePath": "staticwebassets\\Assets\\images\\trans-back1.jpg"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\Assets\\images\\tu-logo.png",
+      "PackagePath": "staticwebassets\\Assets\\images\\tu-logo.png"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\Assets\\images\\tuskegee-logo.png",
+      "PackagePath": "staticwebassets\\Assets\\images\\tuskegee-logo.png"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\Assets\\images\\user_pic.png",
+      "PackagePath": "staticwebassets\\Assets\\images\\user_pic.png"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\Assets\\js\\SweetAlert\\sweetalert2.min.css",
+      "PackagePath": "staticwebassets\\Assets\\js\\SweetAlert\\sweetalert2.min.css"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\Assets\\js\\SweetAlert\\sweetalert2.min.js",
+      "PackagePath": "staticwebassets\\Assets\\js\\SweetAlert\\sweetalert2.min.js"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\Assets\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\Assets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\Assets\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\Assets\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\Assets\\js\\calendar.js",
+      "PackagePath": "staticwebassets\\Assets\\js\\calendar.js"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\Assets\\js\\chat.js",
+      "PackagePath": "staticwebassets\\Assets\\js\\chat.js"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\Assets\\js\\compose.js",
+      "PackagePath": "staticwebassets\\Assets\\js\\compose.js"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\Assets\\js\\create-app.js",
+      "PackagePath": "staticwebassets\\Assets\\js\\create-app.js"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\Assets\\js\\custom_widgets.js",
+      "PackagePath": "staticwebassets\\Assets\\js\\custom_widgets.js"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\Assets\\js\\customers\\list.js",
+      "PackagePath": "staticwebassets\\Assets\\js\\customers\\list.js"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\Assets\\js\\datatables.bundle.js",
+      "PackagePath": "staticwebassets\\Assets\\js\\datatables.bundle.js"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\Assets\\js\\fullcalendar.bundle.js",
+      "PackagePath": "staticwebassets\\Assets\\js\\fullcalendar.bundle.js"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\Assets\\js\\jquery-3.6.0.min.js",
+      "PackagePath": "staticwebassets\\Assets\\js\\jquery-3.6.0.min.js"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\Assets\\js\\jquery-ui.js",
+      "PackagePath": "staticwebassets\\Assets\\js\\jquery-ui.js"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\Assets\\js\\jquery.unobtrusive-ajax.min.js",
+      "PackagePath": "staticwebassets\\Assets\\js\\jquery.unobtrusive-ajax.min.js"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\Assets\\js\\moment.min.js",
+      "PackagePath": "staticwebassets\\Assets\\js\\moment.min.js"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\Assets\\js\\new-target.js",
+      "PackagePath": "staticwebassets\\Assets\\js\\new-target.js"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\Assets\\js\\plugins.bundle.js",
+      "PackagePath": "staticwebassets\\Assets\\js\\plugins.bundle.js"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\Assets\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\Assets\\js\\popper.min.js"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\Assets\\js\\projects_list.js",
+      "PackagePath": "staticwebassets\\Assets\\js\\projects_list.js"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\Assets\\js\\scripts.bundle.js",
+      "PackagePath": "staticwebassets\\Assets\\js\\scripts.bundle.js"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\Assets\\js\\sweetalert2.min.js",
+      "PackagePath": "staticwebassets\\Assets\\js\\sweetalert2.min.js"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\Assets\\js\\upgrade-plan.js",
+      "PackagePath": "staticwebassets\\Assets\\js\\upgrade-plan.js"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\Assets\\js\\users-search.js",
+      "PackagePath": "staticwebassets\\Assets\\js\\users-search.js"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\Assets\\js\\widgets.bundle.js",
+      "PackagePath": "staticwebassets\\Assets\\js\\widgets.bundle.js"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\EmailTemplate\\Approval_Notification.html",
+      "PackagePath": "staticwebassets\\EmailTemplate\\Approval_Notification.html"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\EmailTemplate\\Overdue_Alert.html",
+      "PackagePath": "staticwebassets\\EmailTemplate\\Overdue_Alert.html"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\EmailTemplate\\Rejected_Notification.html",
+      "PackagePath": "staticwebassets\\EmailTemplate\\Rejected_Notification.html"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\css\\CustomStyle.css",
+      "PackagePath": "staticwebassets\\css\\CustomStyle.css"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\js\\AddEditAccessory.js",
+      "PackagePath": "staticwebassets\\js\\AddEditAccessory.js"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\js\\AddEditEquipment.js",
+      "PackagePath": "staticwebassets\\js\\AddEditEquipment.js"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\js\\AddEditLocation.js",
+      "PackagePath": "staticwebassets\\js\\AddEditLocation.js"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\js\\AddEditManufacturer.js",
+      "PackagePath": "staticwebassets\\js\\AddEditManufacturer.js"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\js\\BookingList.js",
+      "PackagePath": "staticwebassets\\js\\BookingList.js"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\js\\Custom.js",
+      "PackagePath": "staticwebassets\\js\\Custom.js"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\js\\Dashboard.js",
+      "PackagePath": "staticwebassets\\js\\Dashboard.js"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\js\\UserList.js",
+      "PackagePath": "staticwebassets\\js\\UserList.js"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\lib\\toastr\\toastr.min.css",
+      "PackagePath": "staticwebassets\\lib\\toastr\\toastr.min.css"
+    },
+    {
+      "Id": "C:\\Applications\\tuskegeeitequipment\\ITEquipment\\ITEquipment.Web\\wwwroot\\lib\\toastr\\toastr.min.js",
+      "PackagePath": "staticwebassets\\lib\\toastr\\toastr.min.js"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.ITEquipment.Web.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.build.ITEquipment.Web.props",
+      "PackagePath": "build\\ITEquipment.Web.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.ITEquipment.Web.props",
+      "PackagePath": "buildMultiTargeting\\ITEquipment.Web.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildTransitive.ITEquipment.Web.props",
+      "PackagePath": "buildTransitive\\ITEquipment.Web.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

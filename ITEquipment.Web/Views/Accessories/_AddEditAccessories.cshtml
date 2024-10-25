@@ -1,0 +1,40 @@
+﻿@model ITEquipment.Models.AccessoriesViewModel
+
+<div id="Ajax_TargetId">
+     <form id="frmAddEditCategory" class="form-horizontal" data-ajax="true" data-ajax-method="POST" data-ajax-failure="AddEditAccessoryFailure"
+          data-ajax-success="AddEditAccessorySuccess" asp-controller="Accessories" asp-action="AddEditAccessory" data-ajax-begin="ShowLoader()" data-ajax-complete="HideLoader()">
+        <div class="row">
+            <input type="hidden" asp-for="Id" class="hdnAccessoryId" />
+            <div class="col-md-6 mb-3">
+                <div class="form-floating">
+                     <input asp-for="Name" class="form-control" placeholder="Accessory Name" />
+                    <label asp-for="Name" class="control-label text-muted requiredFiled"></label>
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="col-md-6 mb-3">
+                <div class="form-floating">
+                    <input asp-for="ModelNo" class="form-control" placeholder="Model No" />
+                    <label asp-for="ModelNo" class="control-label text-muted requiredFiled"></label>
+            <span asp-validation-for="ModelNo" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="col-md-6 mb-3">
+                <div class="form-floating">
+                    <input asp-for="SerialNo" class="form-control" placeholder="Serial No" />
+                    <label asp-for="SerialNo" class="control-label text-muted requiredFiled"></label>
+                    <span asp-validation-for="SerialNo" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="submit" value="Save" class="btn btn-primary " >save</button>
+                <button type="button" class="btn btn-secondary me-3 reset-form">Reset</button>
+                <button class="btn btn-secondary" id="btnClose" type="button" data-bs-dismiss="modal" style="display:none;">Close</button>
+            </div>
+        </div>
+    </form> 
+</div>
+@await Html.PartialAsync("_ValidationScriptsPartial")
+@section Scripts {
+   
+}

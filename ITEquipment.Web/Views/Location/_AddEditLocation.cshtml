@@ -1,0 +1,27 @@
+﻿@model ITEquipment.Models.LocationModel
+
+<div id="Ajax_TargetId">
+    <form id="frmAddEditLocation" class="form-horizontal" data-ajax="true" data-ajax-method="POST" data-ajax-failure="AddEditLocationFailure"
+          data-ajax-success="AddEditLocationSuccess" asp-controller="Location" asp-action="AddEditLocation" data-ajax-begin="ShowLoader()" data-ajax-complete="HideLoader()">
+        <div class="row">
+            <input type="hidden" asp-for="Id" class="hdnLocationId" />
+            <div class="col-md-6 mb-3">
+                <div class="form-floating">
+                    <input asp-for="LocationName" class="form-control" placeholder="Location Name" />
+                    <label asp-for="LocationName" class="control-label text-muted requiredFiled"></label>
+                    <span asp-validation-for="LocationName" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="modal-footer">
+                <button type="submit" value="Save" class="btn btn-primary ">save</button>
+                <button type="button" class="btn btn-secondary me-3 reset-form">Reset</button>
+                <button class="btn btn-secondary" id="btnClose" type="button" data-bs-dismiss="modal" style="display:none;">Close</button>
+            </div>
+        </div>
+    </form>
+</div>
+ @await Html.PartialAsync("_ValidationScriptsPartial") 
+@section Scripts {
+   
+}

@@ -1,0 +1,66 @@
+﻿<div id="tipl_app_sidebar" class="app-sidebar flex-column" data-tipl-drawer="true" data-tipl-drawer-name="app-sidebar" data-tipl-drawer-activate="{default: true, lg: false}" data-tipl-drawer-overlay="true" data-tipl-drawer-width="225px" data-tipl-drawer-direction="start" data-tipl-drawer-toggle="#tipl_app_sidebar_mobile_toggle">
+    <div class="app-sidebar-logo px-6" id="tipl_app_sidebar_logo">
+        <a asp-action="Index" asp-controller="Home">
+            <img alt="Logo" src="~/assets/images/tuskegee-logo.png" class="h-50px app-sidebar-logo-default">  <img alt="Logo" src="~/assets/images/tu-logo.png" class="h-50px app-sidebar-logo-minimize">
+           
+        </a>
+        <div id="tipl_app_sidebar_toggle" class="app-sidebar-toggle btn btn-icon btn-shadow btn-sm btn-color-muted btn-active-color-primary h-30px w-30px position-absolute top-50 start-100 translate-middle rotate" data-tipl-toggle="true" data-tipl-toggle-state="active" data-tipl-toggle-target="body" data-tipl-toggle-name="app-sidebar-minimize"> <i class="kbi bi-arrow-bar-left fs-3 rotate-180"></i> </div>
+    </div>
+    <div class="app-sidebar-menu overflow-hidden flex-column-fluid">
+        <div id="tipl_app_sidebar_menu_wrapper" class="app-sidebar-wrapper">
+            <div id="tipl_app_sidebar_menu_scroll" class="scroll-y my-5 mx-3" data-tipl-scroll="true" data-tipl-scroll-activate="true" data-tipl-scroll-height="auto" data-tipl-scroll-dependencies="#tipl_app_sidebar_logo, #tipl_app_sidebar_footer" data-tipl-scroll-wrappers="#tipl_app_sidebar_menu" data-tipl-scroll-offset="5px" data-tipl-scroll-save-state="true" style="height: 230px;">
+                <div class="menu menu-column menu-rounded menu-sub-indention fw-semibold fs-6" id="#tipl_app_sidebar_menu" data-tipl-menu="true" data-tipl-menu-expand="false">
+                    <div class="menu-item">
+                        <a class="menu-link" asp-action="Index" asp-controller="Home">
+                            <span class="menu-icon">
+                                <i class="bi bi-grid-fill fs-2"></i>
+                            </span><span class="menu-title">Dashboard</span>
+                        </a>
+                    </div>
+                    <div class="menu-item">
+                        <a class="menu-link" asp-action="Index" asp-controller="Equipment">
+                            <span class="menu-icon">
+                                <i class="fa-solid fa-list fs-2"></i>
+                            </span><span class="menu-title">Equipments</span>
+                        </a>
+                    </div>
+                    <div class="menu-item">
+                        <a class="menu-link" asp-action="Index" asp-controller="Accessories">
+                            <span class="menu-icon">
+                                <i class="fa-solid fa-computer  fs-2"></i>
+                            </span><span class="menu-title">Accessories</span>
+                        </a>
+                    </div>
+                    <div class="menu-item">
+                        <a class="menu-link" asp-action="UserList" asp-controller="Home">
+                            <span class="menu-icon">
+                                <i class="bi bi-person-lines-fill fs-2"></i>
+                            </span><span class="menu-title">Users</span>
+                        </a>
+                    </div>
+                    <div class="menu-item">
+                        <a class="menu-link" asp-action="Index" asp-controller="EquipmentBooking">
+                            <span class="menu-icon">
+                                <i class="bi bi-calendar2-week-fill fs-2"></i>
+                            </span><span class="menu-title">Bookings Request</span>
+                        </a>
+                    </div>
+                    <div class="menu-item">
+                        <a class="menu-link" asp-action="Index" asp-controller="Manufacturer">
+                            <span class="menu-icon">
+                                <i class="bi bi-building-fill fs-2"></i>
+                            </span><span class="menu-title">Manufacturers</span>
+                        </a>
+                    </div>
+                    <div class="menu-item">
+                        <a class="menu-link" asp-action="Index" asp-controller="Location">
+                            <span class="menu-icon">
+                                <i class="bi bi-geo-alt-fill fs-2"></i>
+                            </span><span class="menu-title">Locations</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

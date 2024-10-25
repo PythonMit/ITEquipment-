@@ -1,0 +1,120 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Equipment Booking Confirmation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        .email-container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            border: 1px solid #e0e0e0;
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        .header {
+            text-align: center;
+            background-color: #28a745;
+            padding: 20px;
+            border-radius: 8px 8px 0 0;
+            color: #ffffff;
+        }
+
+            .header h1 {
+                margin: 0;
+                font-size: 24px;
+            }
+
+        .content {
+            padding: 20px;
+            color: #333333;
+        }
+
+            .content h2 {
+                font-size: 20px;
+                color: #28a745;
+            }
+
+            .content p {
+                font-size: 16px;
+                line-height: 1.6;
+            }
+
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #f4f4f4;
+            border-top: 1px solid #e0e0e0;
+            border-radius: 0 0 8px 8px;
+        }
+
+            .footer p {
+                margin: 0;
+                font-size: 14px;
+                color: #777777;
+            }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 20px;
+            font-size: 16px;
+            color: #ffffff;
+            background-color: #28a745;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+            .btn:hover {
+                background-color: #218838;
+            }
+    </style>
+</head>
+<body>
+    <div class="email-container">
+        <!-- Header Section -->
+        <div class="header">
+            <h1>Equipment Booking Confirmed</h1>
+        </div>
+
+        <!-- Content Section -->
+        <div class="content">
+            <h2>Dear {userName},</h2>
+            <p>
+                We are pleased to inform you that your request for the following equipment has been successfully booked:
+            </p>
+            <p>
+                <strong>Equipment Name:</strong> {EquipmentName}<br>
+                <strong>Booking Start Date:</strong> {StartDate}<br>
+                <strong>Booking End Date:</strong> {EndDate}
+            </p>
+            <p>
+                Please make sure to collect the equipment on time and return it by the due date to avoid any late fees. If you need to make changes to your booking or have any questions, feel free to contact our support team.
+            </p>
+           
+           
+        </div>
+
+        <!-- Footer Section -->
+        <div class="footer">
+            <p>
+                Thank you for using our equipment booking service!<br>
+                Best regards,<br>
+                The Equipment Management Team
+            </p>
+        </div>
+    </div>
+</body>
+</html>
+
+
