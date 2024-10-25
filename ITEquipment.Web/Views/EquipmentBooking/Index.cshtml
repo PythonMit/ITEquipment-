@@ -1,0 +1,276 @@
+﻿@* @*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+@model ITEquipment.Models.EquipmentDTOModel
+@{
+    ViewData["Title"] = "Bookings Request";
+    Layout = "~/Views/Shared/_LayoutTheme.cshtml";
+}
+<input type="hidden" id="check_UserRole" value="@ViewBag.URole" />
+<div class="card mb-5 mb-xl-8">
+    <div class="card-header border-0 pt-5">
+        <div>
+            <h3 class="card-title align-items-start flex-column">
+                @ViewBag.Title
+            </h3>
+
+            <div class="container-fluid filter-box">
+                <div class="row gx-3">
+                    <div class="col mb-2">
+                        <label class="form-label text-nowrap me-2">User: </label>
+                        <input class="form-control" type="search" placeholder="Search" aria-label="Search" name="UserSearch" id="txt_UserName">
+                    </div>
+                    <div class="col mb-2">
+                        <label class="form-label text-nowrap me-2">Equipment: </label>
+                        <input class="form-control" type="search" placeholder="Search" aria-label="Search" name="EquipmentSearch" id="txt_EquipmentName">
+                    </div>
+                    <div class="col mb-2">
+                        <label class="form-label text-nowrap me-2">Status: </label>
+                        <select asp-for="StatusId" class="form-control" name="StatusSearch" id="txt_StatusName">
+                            @foreach (var item in ViewBag.Status)
+                            {
+                                <option value="@item.Value">@item.Text</option>
+                            }
+                        </select>
+                    </div>
+                    <div class="col mb-2">
+                        <label class="form-label text-nowrap me-2">Start Date: </label>
+                        <input class="form-control custdatepicker" type="text" placeholder="MM/DD/YYYY" aria-label="Search" name="StartDateSearch" id="txt_StartDate">
+                    </div>
+                    <div class="col mb-2">
+                        <label class="form-label text-nowrap me-2">End Date: </label>
+                        <input class="form-control custdatepicker" type="text" placeholder="MM/DD/YYYY" aria-label="Search" name="EndDateSearch" id="txt_Enddate">
+                    </div>
+                    <div class="col mb-2">
+                        <label class="form-label text-nowrap me-2">&nbsp;</label>
+                        <div class="d-flex flex-nowrap">
+                            <button class="btn btn-success me-2 ser_Username" type="submit">Search</button>
+                            <button class="btn btn-secondary ser_btn_Clear" type="button">Clear</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="card-body pt-3">
+        <div class="table-responsive">
+
+            <table id="BookinglistTblId" class="table table-row-dashed table-row-gray-300 align-middle gs-0 gy-4" style="width:100%">
+            </table>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<div class="modal fade add-product-wrapper" id="UserDetails_modal" tabindex="-1" style="display: none;" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered mw-650px">
+        <div class="modal-content">
+            <div class="modal-header" id="user_header" style="padding:10px;">
+                <h2 class="fw-bold">User Detail</h2>
+                <button type="button" class="btn-close closeViewModal" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body px-5">
+                <div class="mx-30" id="divViewUser">
+                    @{
+                        Html.RenderPartial("_UserListView");
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade add-product-wrapper" id="EquipmentDetails_modal" tabindex="-1" style="display: none;" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-content">
+            <div class="modal-header" id="user_header" style="padding:10px;">
+                <h2 class="fw-bold"> Equipment Detail</h2>
+                <button type="button" class="btn-close closeViewModal" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body px-5">
+                <div class="mx-30" id="divViewEquipment">
+                    @{
+                        Html.RenderPartial("_EquipmentView");
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<div class="modal fade" id="Equ_Status_Modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <form id="frmEquipmentStatus" asp-action="UpdateEquipmentStatus" asp-controller="EquipmentBooking" class="form-horizontal" data-ajax="true" data-ajax-method="POST" data-ajax-failure="BookingStatusFailure"
+                  data-ajax-success="BookingStatusSuccess" data-ajax-begin="ShowLoader()" data-ajax-complete="HideLoader()">
+                <div class="modal-header">
+                    <h5 class="modal-title">Update Equipment Status</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <label>Equipment Status :</label>
+                    <select asp-for="StatusId" class="form-control">
+                        @foreach (var item in ViewBag.Status)
+                        {
+                            <option value="@item.Value">@item.Text</option>
+                        }
+                    </select>
+
+                    <input type="hidden" value="" id="hdnEquipmentId" name="Id">
+                    <input type="hidden" value="" id="hdnBookingId" name="bookingId">
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-primary clearStatus" data-bs-dismiss="modal">Save</button>
+                    <button type="button" class="btn btn-secondary clearStatus" data-bs-dismiss="modal">Cancel</button>
+
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="Equ_Return_Modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <form id="frmEquipmentReturn" asp-action="ActionEquipmentRequest" asp-controller="EquipmentBooking" class="form-horizontal" data-ajax="true" data-ajax-method="POST" data-ajax-failure="BookingReturnFailure"
+                  data-ajax-success="BookingReturnSuccess" data-ajax-begin="ShowLoader()" data-ajax-complete="HideLoader()">
+                <div class="modal-header">
+                    <h5 class="modal-title"> Equipment Return Request </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Are you sure want to return this Equipment?</p>
+                    <textarea class="form-control" id="a_Comment" name="Comment" cols="80" maxlength="500" placeholder="Comments" rows="5"></textarea>
+                    <input type="hidden" value="" id="hdnEquipmentIdA" name="Id">
+                    <input type="hidden" value="" id="hdnBookingIdA" name="BookingId">
+                    <input type="hidden" value="2" id="hdnStatusIdA" name="StatusId">
+                    <input type="hidden" value="Returned" id="hdnReqType" name="ReqType">
+                    <input type="hidden" value="" id="hdnUserEmail" name="UserEmail">
+                    <input type="hidden" value="" id="hdnEquName" name="EquName">
+                    <input type="hidden" value="" id="hdnStartDate" name="StartDate">
+                    <input type="hidden" value="" id="hdnEndDate" name="EndDate">
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-primary" data-bs-dismiss="modal">Save</button>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="Equ_Approved_Modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <form id="frmEquipmentApproved" asp-action="ActionEquipmentRequest" asp-controller="EquipmentBooking" class="form-horizontal" data-ajax="true" data-ajax-method="POST" data-ajax-failure="BookingApprovedFailure"
+                  data-ajax-success="BookingApprovedSuccess" data-ajax-begin="ShowLoader()" data-ajax-complete="HideLoader()">
+                <div class="modal-header">
+                    <h5 class="modal-title"> Equipment Request Approved </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Are you sure want to Approved this Equipment Request?</p>
+                    <textarea class="form-control" id="a_Comment" name="Comment" cols="80" maxlength="500" placeholder="Comments" rows="5"></textarea>
+                    <input type="hidden" value="" id="hdnEquipmentIdAp" name="Id">
+                    <input type="hidden" value="" id="hdnBookingIdAp" name="BookingId">
+                    <input type="hidden" value="2" id="hdnStatusIdAp" name="StatusId">
+                    <input type="hidden" value="Approved" id="hdnReqType" name="ReqType">
+                    <input type="hidden" value="" id="hdnUserEmailAp" name="UserEmail">
+                    <input type="hidden" value="" id="hdnEquNameAp" name="EquName">
+                    <input type="hidden" value="" id="hdnStartDateAp" name="StartDate">
+                    <input type="hidden" value="" id="hdnEndDateAp" name="EndDate">
+                    <input type="hidden" value="" id="hdncommentAp" name="Comment">
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-primary" data-bs-dismiss="modal">Save</button>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="Equ_Reject_Modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <form id="frmEquipmentReject" asp-action="ActionEquipmentRequest" asp-controller="EquipmentBooking" class="form-horizontal" data-ajax="true" data-ajax-method="POST" data-ajax-failure="BookingRejectFailure"
+                  data-ajax-success="BookingRejectSuccess" data-ajax-begin="ShowLoader()" data-ajax-complete="HideLoader()">
+                <div class="modal-header">
+                    <h5 class="modal-title"> Equipment Request Reject </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Are you sure want to Rejected this Equipment Request?</p>
+                    <textarea class="form-control" id="r_Comment" name="Comment" cols="80" maxlength="500" placeholder="Comments" rows="5"></textarea>
+                    <input type="hidden" value="" id="hdnEquipmentIdR" name="Id">
+                    <input type="hidden" value="" id="hdnBookingIdR" name="bookingId">
+                    <input type="hidden" value="1" id="hdnStatusIdR" name="StatusId">
+                    <input type="hidden" value="Rejected" id="hdnReqType" name="ReqType">
+                    <input type="hidden" value="" id="hdnUserEmailR" name="UserEmail">
+                    <input type="hidden" value="" id="hdnEquNameR" name="EquName">
+                    <input type="hidden" value="" id="hdnStartDateR" name="StartDate">
+                    <input type="hidden" value="" id="hdnEndDateR" name="EndDate">
+                    <input type="hidden" id="hdncommentR" name="Comment">
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-primary" data-bs-dismiss="modal">Save</button>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="SendMail_modal" data-bs-backdrop="static" data-bs-keyboard="false" style="display: none;" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="staticBackdropLabel">Send Email</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body px-5">
+                <div class="mx-30" id="divSendEmail">
+                    @{
+                        Html.RenderPartial("_SendActionEmail");
+                    }
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="BookingHistory_modal" data-bs-backdrop="static" data-bs-keyboard="false" style="display: none;" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="staticBackdropLabel">View Booking History</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body px-5">
+                <div class="mx-30" id="divBookingHistory">
+                    @{
+                        Html.RenderPartial("_BookingHistory");
+                    }
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+
+
+
+
+
+@section Scripts {
+    <script src="@Url.Content("~/js/BookingList.js")"></script>
+}

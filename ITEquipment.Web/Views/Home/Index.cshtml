@@ -1,0 +1,113 @@
+﻿@{
+    ViewData["Title"] = "Dashboard";
+    Layout = "~/Views/Shared/_LayoutTheme.cshtml";
+}
+<input type="hidden" id="check_UserRole" value="@ViewBag.URole" />
+<div id="tipl_app_content" class="app-content">
+    <div id="tipl_app_content_container" class="container-fluid px-0">
+        <div class="row dash-row">
+            <div class="col-12 col-sm-6 col-md-3">
+                <a href="/Equipment/Index">
+                    <div class="info-box">
+                        <span class="box"><img src="~/assets/images/asset150x150.png"></span>
+                        <div class="info-box-content">
+                            <span class="info-box-text">Equipment List</span>
+                            <h2 class="dash-content">@ViewBag.EquipmentsList</h2>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-12 col-sm-6 col-md-3">
+                <a href="/Accessories/Index">
+                    <div class="info-box">
+                        <span class="box"><img src="~/assets/images/accessory_pic.png"></span>
+                        <div class="info-box-content">
+                            <span class="info-box-text">Accessories Count</span>
+                            <h2 class="dash-content">@ViewBag.AsseccoriesList</h2>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-12 col-sm-6 col-md-3">
+                <a href="/Home/UserList">
+                    <div class="info-box">
+                        <span class="box"><img src="~/assets/images/user_pic.png"></span>
+                        <div class="info-box-content">
+                            <span class="info-box-text">User Count</span>
+                            <h2 class="dash-content">@ViewBag.UserList</h2>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-12 col-sm-6 col-md-3">
+                <a href="/EquipmentBooking/Index">
+                    <div class="info-box">
+                        <span class="box"><img src="~/assets/images/booking_pic.png"></span>
+                        <div class="info-box-content">
+                            <span class="info-box-text">Booking Count</span>
+                            <h2 class="dash-content">@ViewBag.BookingList</h2>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        @*  <div class="row dash-row">
+        <div class="col-12 col-sm-6 col-md-3">
+        <canvas id="myChart"></canvas>
+        </div>
+
+        </div> *@
+    </div>
+</div>
+
+<div class="row dash-row">
+    <div class="col-6 col-sm-6 col-md-6">
+        <div class="card mb-5 mb-xl-8 h-100">
+            <div class="card-header border-0 pt-5">
+                <div class="chart-container">
+                    <canvas id="chartAssestDetail"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-6 col-sm-6 col-md-6">
+        <div class="card mb-5 mb-xl-8 h-100">
+            <div class="card-header border-0 pt-5">
+                <div class="chart-container">
+                    <canvas id="chartAssestUsage"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="@Url.Content("~/js/Dashboard.js")"></script>
+
+    <script>
+        const ctx = document.getElementById('myChart');
+
+        new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+                datasets: [{
+                    label: '# of Votes',
+                    data: [12, 19, 3, 5, 2, 3],
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+    </script>
+}

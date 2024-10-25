@@ -1,0 +1,51 @@
+﻿@model ITEquipment.Models.EmailFormModel
+
+<div class="flex-lg-row-fluid">
+    <div>
+       
+        <div>
+            <form id="tipl_inbox_compose_form" class="form-horizontal" data-ajax="true" data-ajax-method="POST" asp-action="SendActionEmail" asp-controller="EquipmentBooking" data-ajax-failure="SendActionEmailFailure"
+                  data-ajax-success="SendActionEmailSuccess" data-ajax-begin="ShowLoader()" data-ajax-complete="HideLoader()">
+                <div class="d-block">
+                    <div class="d-flex align-items-center border-bottom px-8 min-h-50px">
+                        <div class="text-dark fw-bold w-75px mb-3">
+                            To:
+                        </div> 
+                        <input type="hidden" asp-for=" Message" id="txthid_ToEmail" />
+                        <input asp-for="ToAddress"  class="form-control form-control-transparent border-0" readonly disabled id="txt_toemail">
+                        <div class="ms-auto w-75px text-end">
+                            <span class="text-muted fs-bold cursor-pointer text-hover-primary me-2" data-tipl-inbox-form="cc_button">Cc</span>
+                            <span class="text-muted fs-bold cursor-pointer text-hover-primary" data-tipl-inbox-form="bcc_button">Bcc</span>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center border-bottom ps-8 pe-5 mb-3">
+                        <span class="text-dark fw-bold">Cc:</span> <input asp-for="CcAddress" id="CcAddressActionEmail" class="form-control form-control-transparent border-0">
+                    </div>
+                    <div class="d-flex align-items-center border-bottom ps-8 pe-5 mb-3">
+                        <span class="text-dark fw-bold">Bc:</span> <input asp-for="BccAddress" id="BccAddressActionEmail" class="form-control form-control-transparent border-0">
+                    </div>
+                    <div class="border-bottom mb-3">
+                        <input asp-for="Subject" id="SubjectActionEmail" class="form-control form-control-transparent border-0 px-8 min-h-45px" placeholder="Subject">
+                    </div>
+                    <div class="quill-wrap">
+                   
+                        <div id="editor" class="bg-transparent border-0 h-350px px-3 ql-container ql-snow">
+                            <input type="hidden"  id="hdn_EmailMessage" />
+                            <textarea class="form-control ql-editor_body" id="action_EmailBody" rows="5"></textarea>
+                            @* <div class="ql-editor ql-blank"  id="email_textarea" contenteditable="true" data-placeholder="Type your text here...."><p id="email_textareaP"><br></p></div><div class="ql-clipboard" id="email_textareadiv" contenteditable="true" tabindex="-1"></div><div class="ql-image-tooltip ql-hidden ql-tooltip"><input class="input" type="text"><div class="ql-empty ql-preview"></div><a class="ql-cancel"></a><a class="ql-action"></a></div><div class="ql-link-tooltip ql-tooltip ql-hidden"><a class="ql-preview" target="_blank" href="about:blank"></a><input type="text"><a class="ql-action"></a><a class="ql-remove"></a></div> *@
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <div class="modal-footer">
+                            <button type="submit" value="Save" class="btn btn-lg btn-theme-primary btn-primary" id="btn_sendActionEmail">Send</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+       
+
+    </div>
+</div>

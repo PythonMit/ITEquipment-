@@ -1,0 +1,17 @@
+C:\Applications\tuskegeeitequipment\ITEquipment\ITEquipment.Interfaces\bin\Release\net8.0\ITEquipment.Interfaces.deps.json
+C:\Applications\tuskegeeitequipment\ITEquipment\ITEquipment.Interfaces\bin\Release\net8.0\ITEquipment.Interfaces.runtimeconfig.json
+C:\Applications\tuskegeeitequipment\ITEquipment\ITEquipment.Interfaces\bin\Release\net8.0\ITEquipment.Interfaces.dll
+C:\Applications\tuskegeeitequipment\ITEquipment\ITEquipment.Interfaces\bin\Release\net8.0\ITEquipment.Interfaces.pdb
+C:\Applications\tuskegeeitequipment\ITEquipment\ITEquipment.Interfaces\bin\Release\net8.0\ITEquipment.Models.dll
+C:\Applications\tuskegeeitequipment\ITEquipment\ITEquipment.Interfaces\bin\Release\net8.0\ITEquipment.Models.pdb
+C:\Applications\tuskegeeitequipment\ITEquipment\ITEquipment.Interfaces\obj\Release\net8.0\ITEquipment.Interfaces.csproj.AssemblyReference.cache
+C:\Applications\tuskegeeitequipment\ITEquipment\ITEquipment.Interfaces\obj\Release\net8.0\ITEquipment.Interfaces.GeneratedMSBuildEditorConfig.editorconfig
+C:\Applications\tuskegeeitequipment\ITEquipment\ITEquipment.Interfaces\obj\Release\net8.0\ITEquipment.Interfaces.AssemblyInfoInputs.cache
+C:\Applications\tuskegeeitequipment\ITEquipment\ITEquipment.Interfaces\obj\Release\net8.0\ITEquipment.Interfaces.AssemblyInfo.cs
+C:\Applications\tuskegeeitequipment\ITEquipment\ITEquipment.Interfaces\obj\Release\net8.0\ITEquipment.Interfaces.csproj.CoreCompileInputs.cache
+C:\Applications\tuskegeeitequipment\ITEquipment\ITEquipment.Interfaces\obj\Release\net8.0\ITEquipm.C5464ED6.Up2Date
+C:\Applications\tuskegeeitequipment\ITEquipment\ITEquipment.Interfaces\obj\Release\net8.0\ITEquipment.Interfaces.dll
+C:\Applications\tuskegeeitequipment\ITEquipment\ITEquipment.Interfaces\obj\Release\net8.0\refint\ITEquipment.Interfaces.dll
+C:\Applications\tuskegeeitequipment\ITEquipment\ITEquipment.Interfaces\obj\Release\net8.0\ITEquipment.Interfaces.pdb
+C:\Applications\tuskegeeitequipment\ITEquipment\ITEquipment.Interfaces\obj\Release\net8.0\ITEquipment.Interfaces.genruntimeconfig.cache
+C:\Applications\tuskegeeitequipment\ITEquipment\ITEquipment.Interfaces\obj\Release\net8.0\ref\ITEquipment.Interfaces.dll

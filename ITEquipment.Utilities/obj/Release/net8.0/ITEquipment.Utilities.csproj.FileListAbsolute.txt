@@ -1,0 +1,17 @@
+C:\Applications\tuskegeeitequipment\ITEquipment\ITEquipment.Utilities\bin\Release\net8.0\ITEquipment.Utilities.deps.json
+C:\Applications\tuskegeeitequipment\ITEquipment\ITEquipment.Utilities\bin\Release\net8.0\ITEquipment.Utilities.runtimeconfig.json
+C:\Applications\tuskegeeitequipment\ITEquipment\ITEquipment.Utilities\bin\Release\net8.0\ITEquipment.Utilities.dll
+C:\Applications\tuskegeeitequipment\ITEquipment\ITEquipment.Utilities\bin\Release\net8.0\ITEquipment.Utilities.pdb
+C:\Applications\tuskegeeitequipment\ITEquipment\ITEquipment.Utilities\bin\Release\net8.0\ITEquipment.Models.dll
+C:\Applications\tuskegeeitequipment\ITEquipment\ITEquipment.Utilities\bin\Release\net8.0\ITEquipment.Models.pdb
+C:\Applications\tuskegeeitequipment\ITEquipment\ITEquipment.Utilities\obj\Release\net8.0\ITEquipment.Utilities.csproj.AssemblyReference.cache
+C:\Applications\tuskegeeitequipment\ITEquipment\ITEquipment.Utilities\obj\Release\net8.0\ITEquipment.Utilities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Applications\tuskegeeitequipment\ITEquipment\ITEquipment.Utilities\obj\Release\net8.0\ITEquipment.Utilities.AssemblyInfoInputs.cache
+C:\Applications\tuskegeeitequipment\ITEquipment\ITEquipment.Utilities\obj\Release\net8.0\ITEquipment.Utilities.AssemblyInfo.cs
+C:\Applications\tuskegeeitequipment\ITEquipment\ITEquipment.Utilities\obj\Release\net8.0\ITEquipment.Utilities.csproj.CoreCompileInputs.cache
+C:\Applications\tuskegeeitequipment\ITEquipment\ITEquipment.Utilities\obj\Release\net8.0\ITEquipm.D3018A9F.Up2Date
+C:\Applications\tuskegeeitequipment\ITEquipment\ITEquipment.Utilities\obj\Release\net8.0\ITEquipment.Utilities.dll
+C:\Applications\tuskegeeitequipment\ITEquipment\ITEquipment.Utilities\obj\Release\net8.0\refint\ITEquipment.Utilities.dll
+C:\Applications\tuskegeeitequipment\ITEquipment\ITEquipment.Utilities\obj\Release\net8.0\ITEquipment.Utilities.pdb
+C:\Applications\tuskegeeitequipment\ITEquipment\ITEquipment.Utilities\obj\Release\net8.0\ITEquipment.Utilities.genruntimeconfig.cache
+C:\Applications\tuskegeeitequipment\ITEquipment\ITEquipment.Utilities\obj\Release\net8.0\ref\ITEquipment.Utilities.dll

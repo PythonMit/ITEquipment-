@@ -1,0 +1,74 @@
+﻿@model ITEquipment.Models.UserMasterDTOModel
+
+<div id="Ajax_TargetId">
+  @*   <form id="frmAddEditCategory" class="form-horizontal" data-ajax="true" data-ajax-method="POST" data-ajax-failure="AddEditAccessoryFailure"
+          data-ajax-success="AddEditAccessorySuccess" asp-controller="Accessories" asp-action="AddEditAccessory"> *@
+  
+        <div class="row">
+            <input type="hidden" asp-for="Id" class="hdnAccessoryId" />
+        <div class="col-lg-9 mb-3">
+            <div class="row">
+                <div class="col-lg-4 mb-3">
+                    <label asp-for="FirstName" class="control-label">First Name :</label>
+                    <div>
+                         <label asp-for="FirstName" class="control-label text-muted requiredFiled">@(Model?.FirstName == null ? "First Name" : Model?.FirstName)</label>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-3">
+                    <label asp-for="LastName" class="control-label"> Last Name :</label>
+                    <div>
+                        <label asp-for="LastName" class="control-label text-muted requiredFiled">@(Model?.LastName == null ? "Last Name" : Model?.LastName)</label>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-3">
+                    <label asp-for="Email" class="control-label">Email :</label>
+                    <div>
+                        <label asp-for="Email" class="control-label text-muted requiredFiled">@(Model?.Email == null ? "Email" : Model?.Email)</label>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-3">
+                    <label asp-for="PhoneNo" class="control-label"> Phone No :</label>
+                    <div>
+                        <label asp-for="PhoneNo" class="control-label text-muted requiredFiled"> @(Model?.PhoneNo == null ? "Phone No" : Model?.PhoneNo)</label>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-3">
+                    <label asp-for="DeviceId " class="control-label">Device Id :</label>
+                    <div>
+                        <label asp-for="DeviceId " class="control-label text-muted requiredFiled">@(Model?.DeviceId == null ? "Device Id" : Model?.DeviceId)</label>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-3">
+                    <label asp-for="AppVersion" class="control-label">AppVersion : </label>
+                    <div>
+                        <label asp-for="AppVersion" class="control-label text-muted requiredFiled"> @(Model?.AppVersion == null ? "AppVersion" : Model?.AppVersion)</label>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-3">
+                    <label asp-for="Os" class="control-label">Os :</label>
+                    <div>
+                        <label asp-for="Os" class="control-label text-muted requiredFiled"> @(Model?.Os == null ? "Os" : Model?.Os)</label>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-3">
+                    <label asp-for="Name" class="control-label">Role :</label>
+                    <div>
+                        <label asp-for="Name" class="control-label text-muted requiredFiled">@(Model?.Name == null ? "Role" : Model?.Name) </label>
+                    </div>
+                </div>
+            </div>
+            </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+        </div>
+
+
+
+   
+    
+  @*   </form> *@
+</div>
+@section Scripts {
+    @* @await Html.PartialAsync("_ValidationScriptsPartial") *@
+}

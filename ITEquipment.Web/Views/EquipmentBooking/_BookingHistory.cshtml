@@ -1,0 +1,31 @@
+﻿@model ITEquipment.Models.BookingHistoryList
+<div class="row">
+    @if (Model != null && Model.bookingHistoryModels.Count() > 0)
+    {
+        <ul class="history-wrapper">
+            @foreach (var item in Model.bookingHistoryModels)
+            {
+                <li class="history-point">
+                    <div class="left-point">
+                        <i class="fas fa-comment-dots fa-flip-horizontal"></i>
+                    </div>
+                    <div class="date-time-record">
+                        <small>@item.CreatedDateTime</small>
+                    </div>
+                    <p class="action-text">@item.StatusType</p>
+
+                </li>
+            }
+        </ul>
+       
+    }
+    else
+    {
+        <div class="divBookingHistory">
+            <span>No History Found!</span>
+        </div>
+    }
+</div>
+
+
+

@@ -1,0 +1,17 @@
+C:\project\IT_Equipment_API\source_code\ITEquipment\ITEquipment.Interfaces\bin\Debug\net8.0\ITEquipment.Interfaces.deps.json
+C:\project\IT_Equipment_API\source_code\ITEquipment\ITEquipment.Interfaces\bin\Debug\net8.0\ITEquipment.Interfaces.dll
+C:\project\IT_Equipment_API\source_code\ITEquipment\ITEquipment.Interfaces\bin\Debug\net8.0\ITEquipment.Interfaces.pdb
+C:\project\IT_Equipment_API\source_code\ITEquipment\ITEquipment.Interfaces\obj\Debug\net8.0\ITEquipment.Interfaces.GeneratedMSBuildEditorConfig.editorconfig
+C:\project\IT_Equipment_API\source_code\ITEquipment\ITEquipment.Interfaces\obj\Debug\net8.0\ITEquipment.Interfaces.AssemblyInfoInputs.cache
+C:\project\IT_Equipment_API\source_code\ITEquipment\ITEquipment.Interfaces\obj\Debug\net8.0\ITEquipment.Interfaces.AssemblyInfo.cs
+C:\project\IT_Equipment_API\source_code\ITEquipment\ITEquipment.Interfaces\obj\Debug\net8.0\ITEquipment.Interfaces.csproj.CoreCompileInputs.cache
+C:\project\IT_Equipment_API\source_code\ITEquipment\ITEquipment.Interfaces\obj\Debug\net8.0\ITEquipment.Interfaces.dll
+C:\project\IT_Equipment_API\source_code\ITEquipment\ITEquipment.Interfaces\obj\Debug\net8.0\refint\ITEquipment.Interfaces.dll
+C:\project\IT_Equipment_API\source_code\ITEquipment\ITEquipment.Interfaces\obj\Debug\net8.0\ITEquipment.Interfaces.pdb
+C:\project\IT_Equipment_API\source_code\ITEquipment\ITEquipment.Interfaces\obj\Debug\net8.0\ref\ITEquipment.Interfaces.dll
+C:\project\IT_Equipment_API\source_code\ITEquipment\ITEquipment.Interfaces\bin\Debug\net8.0\ITEquipment.Models.dll
+C:\project\IT_Equipment_API\source_code\ITEquipment\ITEquipment.Interfaces\bin\Debug\net8.0\ITEquipment.Models.pdb
+C:\project\IT_Equipment_API\source_code\ITEquipment\ITEquipment.Interfaces\obj\Debug\net8.0\ITEquipment.Interfaces.csproj.AssemblyReference.cache
+C:\project\IT_Equipment_API\source_code\ITEquipment\ITEquipment.Interfaces\obj\Debug\net8.0\ITEquipm.C5464ED6.Up2Date
+C:\project\IT_Equipment_API\source_code\ITEquipment\ITEquipment.Interfaces\bin\Debug\net8.0\ITEquipment.Interfaces.runtimeconfig.json
+C:\project\IT_Equipment_API\source_code\ITEquipment\ITEquipment.Interfaces\obj\Debug\net8.0\ITEquipment.Interfaces.genruntimeconfig.cache

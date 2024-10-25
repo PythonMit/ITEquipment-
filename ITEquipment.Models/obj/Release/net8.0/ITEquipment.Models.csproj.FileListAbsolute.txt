@@ -1,0 +1,14 @@
+C:\Applications\tuskegeeitequipment\ITEquipment\ITEquipment.Models\bin\Release\net8.0\ITEquipment.Models.deps.json
+C:\Applications\tuskegeeitequipment\ITEquipment\ITEquipment.Models\bin\Release\net8.0\ITEquipment.Models.runtimeconfig.json
+C:\Applications\tuskegeeitequipment\ITEquipment\ITEquipment.Models\bin\Release\net8.0\ITEquipment.Models.dll
+C:\Applications\tuskegeeitequipment\ITEquipment\ITEquipment.Models\bin\Release\net8.0\ITEquipment.Models.pdb
+C:\Applications\tuskegeeitequipment\ITEquipment\ITEquipment.Models\obj\Release\net8.0\ITEquipment.Models.csproj.AssemblyReference.cache
+C:\Applications\tuskegeeitequipment\ITEquipment\ITEquipment.Models\obj\Release\net8.0\ITEquipment.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Applications\tuskegeeitequipment\ITEquipment\ITEquipment.Models\obj\Release\net8.0\ITEquipment.Models.AssemblyInfoInputs.cache
+C:\Applications\tuskegeeitequipment\ITEquipment\ITEquipment.Models\obj\Release\net8.0\ITEquipment.Models.AssemblyInfo.cs
+C:\Applications\tuskegeeitequipment\ITEquipment\ITEquipment.Models\obj\Release\net8.0\ITEquipment.Models.csproj.CoreCompileInputs.cache
+C:\Applications\tuskegeeitequipment\ITEquipment\ITEquipment.Models\obj\Release\net8.0\ITEquipment.Models.dll
+C:\Applications\tuskegeeitequipment\ITEquipment\ITEquipment.Models\obj\Release\net8.0\refint\ITEquipment.Models.dll
+C:\Applications\tuskegeeitequipment\ITEquipment\ITEquipment.Models\obj\Release\net8.0\ITEquipment.Models.pdb
+C:\Applications\tuskegeeitequipment\ITEquipment\ITEquipment.Models\obj\Release\net8.0\ITEquipment.Models.genruntimeconfig.cache
+C:\Applications\tuskegeeitequipment\ITEquipment\ITEquipment.Models\obj\Release\net8.0\ref\ITEquipment.Models.dll

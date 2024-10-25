@@ -1,0 +1,199 @@
+﻿@model ITEquipment.Models.EquipmentDTOModel
+
+<div id="Ajax_TargetId">
+    <form id="frmAddEditEquipment" enctype="multipart/form-data" class="form-horizontal" data-ajax="true" data-ajax-method="POST" data-ajax-failure="AddEditEquipmentFailure"
+          data-ajax-success="AddEditEquipmentSuccess" asp-controller="Equipment" asp-action="AddEditEquipment" data-ajax-begin="ShowLoader()" data-ajax-complete="HideLoader()">
+        <div class="row">
+            <input type="hidden" asp-for="Id" class="hdnEquipmentId" />
+            <div class="col-md-4 mb-3">
+                <div class="form-floating">
+                    <input asp-for="Name" class="form-control" placeholder="Equipment Name" />
+                    <label asp-for="Name" class="control-label text-muted requiredFiled"></label>
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-3">
+                <div class="form-floating">
+                    <input asp-for="ModelNo" class="form-control" placeholder="Model No" />
+                    <label asp-for="ModelNo" class="control-label text-muted requiredFiled"></label>
+                    <span asp-validation-for="ModelNo" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="form-floating">
+                    <input asp-for="SerialNo" class="form-control" placeholder="Serial No" />
+                    <label asp-for="SerialNo" class="control-label text-muted requiredFiled"></label>
+                    <span asp-validation-for="SerialNo" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-3">
+                <div class="form-floating">
+                    <select asp-for="LocationId" class="form-control">
+                        @foreach (var item in ViewBag.Location)
+                        {
+
+                            <option value="@item.Value">@item.Text</option>
+                        }
+                    </select>
+                    <label asp-for="LocationName"></label>
+                    <span asp-validation-for="LocationName" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="form-floating">
+                    <select asp-for="ManufacturerId" class="form-control">
+                        @foreach (var item in ViewBag.Manufacturer)
+                        {
+
+                            <option value="@item.Value">@item.Text</option>
+                        }
+                    </select>
+                    <label asp-for="ManufacturerName" class="control-label text-muted requiredFiled"></label>
+                    <span asp-validation-for="ManufacturerName" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="form-floating">
+                    <input asp-for="AssetsTag" class="form-control" placeholder="Assets Tag" />
+                    <label asp-for="AssetsTag" class="control-label text-muted requiredFiled"></label>
+                    <span asp-validation-for="AssetsTag" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="form-floating">
+                    @if (Model != null && !string.IsNullOrEmpty(Model.ImagePath))
+                    {
+                        <input asp-for="ImagePath" type="hidden" value="@Model.ImagePath">
+                        <div id="ImageFileUploadedLink">
+                            <a href="@ViewBag.ImageFilePath" class="control-label" target="_blank"><i class="fa-solid fa-computer  fs-2"></i> View Image</a>
+                            <a href="javascript:void(0)" class="action-link p-2 deleteFile" data-id="@Model.Id" data-type="ImageFile" data-path="@ViewBag.ImageFilePath"><i class="fa fa-trash fs-3"></i></a>
+                        </div>
+                    }
+                    else
+                    {
+                        <input asp-for="Image" type="file" class="form-control " placeholder="Upload Image" accept=".jpg,.jpeg,.png,.gif" />
+                        <label asp-for="Image" class="control-label"></label>
+
+                    }
+
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-3">
+                <div class="form-floating">
+                    @if (Model != null && !string.IsNullOrEmpty(Model.VideoPath))
+                    {
+                        <input asp-for="VideoPath" type="hidden" value="@Model.VideoPath">
+                        <div id="videoUploadedLink">
+                            <a href="@ViewBag.VideoPath" class="control-label" target="_blank"><i class="bi bi-film fs-2"></i> View Video</a>
+                            <a href="javascript:void(0)" class="action-link p-2 deleteFile" data-id="@Model.Id" data-type="VideoFile" data-path="@ViewBag.VideoPath"><i class="fa fa-trash fs-3"></i></a>
+                        </div>
+                    }
+                    else
+                    {
+                        <input asp-for="Video" type="file" class="form-control" placeholder="upload video" accept=".mp4,.avi,.mov,.mkv" />
+                        <label asp-for="Video" class="control-label text-muted"></label>
+                    }
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="form-floating">
+                    @if (Model != null && !string.IsNullOrEmpty(Model.DocumentPath))
+                    {
+                        <input asp-for="DocumentPath" type="hidden" value="@Model.DocumentPath">
+                        <div id="documentUploadedLink">
+                            <a href="@ViewBag.DocumentPath" class="control-label" target="_blank">  <i class="bi bi-file-earmark-bar-graph-fill fs-3"></i> View Document</a>
+                            <a href="javascript:void(0)" class="action-link p-2 deleteFile" data-id="@Model.Id" data-type="DocumentFile" data-path="@ViewBag.DocumentPath"><i class="fa fa-trash fs-3"></i></a>
+                        </div>
+                    }
+                    else
+                    {
+                        <input asp-for="Document" type="file" class="form-control" placeholder="upload Document" accept=".pdf" />
+                        <label asp-for="Document" class="control-label text-muted"></label>
+                    }
+
+                </div>
+            </div>
+            <div class="col-md-12 mb-3">
+
+                <div class="form-floating">
+                    <select asp-for="StatusId" class="form-control">
+                        @foreach (var item in ViewBag.Status)
+                        {
+
+                            <option value="@item.Value">@item.Text</option>
+                        }
+                    </select>
+                    <label asp-for="StatusId"></label>
+                    <span asp-validation-for="StatusId" class="text-danger"></span>
+
+                </div>
+            </div>
+
+            <div class="col-md-12 mb-3">
+                <div class="form-floating">
+                    <textarea asp-for="Description" class="form-control custom-textarea" cols="80" maxlength="500" placeholder="Description" rows="10"></textarea>
+                    <label asp-for="Description" class="control-label text-muted requiredFiled"></label>
+                    <span asp-validation-for="Description" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col mb-3">
+
+                    <div class="form-floating">
+                        <input type="text" id="AccessoryName" class="form-control" placeholder="Accessory" />
+                        <label for="accessory" class="control-label text-muted">Accessory Name</label>
+                        <input type="hidden" id="AccessoryListJson" name="AccessoryListJson" />
+
+                    </div>
+                </div>
+
+                <div class="col-auto mb-3">
+                    <button type="button" id="addAccessoryBtn" class="btn btn-primary">Add</button>
+                </div>
+            </div>           
+
+            <div class="accessory-list-wrap">
+                @if (Model != null && Model.AssetsList.Count() > 0)
+                {
+                    @foreach (var item in Model.AssetsList)
+                    {
+                        <div class="accessory-item" data-id="@item.Id">
+                            <span>@item.AccessoryName</span>
+                            <a href="javascript:void(0)" class="btn btn-icon btn-bg-danger btn-active-color-primary btn-sm ms-2" onclick="deleteAccessoryDB(@item.Id,@Model.Id)">
+                                <i class="bi bi-x fs-3 text-white"></i>
+                            </a>
+                        </div>
+
+                    }
+                }
+                <div id="accessoryList" class="d-inline-flex">
+                </div>
+            </div>
+
+
+            <div class="modal-footer">
+                <button type="submit" value="Save" class="btn btn-primary ">Save</button>
+                <button type="button" class="btn btn-secondary me-3 reset-form">Reset</button>
+                <button class="btn btn-secondary" id="btnClose" type="button" data-bs-dismiss="modal" style="display:none;">Close</button>
+            </div>
+        </div>
+    </form>
+</div>
+
+@await Html.PartialAsync("_ValidationScriptsPartial")
+@section Scripts {
+    @*  <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-ajax-unobtrusive/3.2.6/jquery.unobtrusive-ajax.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $.validator.unobtrusive.parse($("#frmAddEditEquipment"));
+        })
+    </script> *@
+    @* @await Html.PartialAsync("_ValidationScriptsPartial") *@
+}
